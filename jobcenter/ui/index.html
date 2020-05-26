@@ -1,0 +1,78 @@
+<!--
+───────────────────────────────────────────────────────────────────────────────────────────
+─██████████████─██████████─██████─────────██████████████─██████─────────████████──████████─
+─██░░░░░░░░░░██─██░░░░░░██─██░░██─────────██░░░░░░░░░░██─██░░██─────────██░░░░██──██░░░░██─
+─██░░██████░░██─████░░████─██░░██─────────██░░██████████─██░░██─────────████░░██──██░░████─
+─██░░██──██░░██───██░░██───██░░██─────────██░░██─────────██░░██───────────██░░░░██░░░░██───
+─██░░██████░░██───██░░██───██░░██─────────██░░██████████─██░░██───────────████░░░░░░████───
+─██░░░░░░░░░░██───██░░██───██░░██─────────██░░░░░░░░░░██─██░░██─────────────████░░████─────
+─██░░██████████───██░░██───██░░██─────────██░░██████████─██░░██───────────────██░░██───────
+─██░░██───────────██░░██───██░░██─────────██░░██─────────██░░██───────────────██░░██───────
+─██░░██─────────████░░████─██░░██████████─██░░██████████─██░░██████████───────██░░██───────
+─██░░██─────────██░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██───────██░░██───────
+─██████─────────██████████─██████████████─██████████████─██████████████───────██████───────
+───────────────────────────────────────────────────────────────────────────────────────────
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="jobcenter">
+
+            <div id="loginpage">
+                <h1>Velkommen til <span>jobcenteret</span></h1>
+                <p>Her kan du vælge det job der tilpasser dig og dine drømme.</p>
+                <p>Vi ønsker at du finder dit drømme job og føler dit hejte og drømme.</p><br>
+                <h2>JOBS</h2>
+                <p><div id="jobhome1"></div></p>
+                <p><div id="jobhome2"></div></p>
+                <div class="linje"></div>
+                <button class="btnlogin" onclick="Login()">LOGIN</button>
+            </div>
+
+            <div id="jobpage">
+                <div class="scrollbox">
+                    <div class="containercard">
+                        <button class="card" onclick="job1()">
+                            <h3><div id="job1"></div></h3>
+                        </button>
+                        <button class="card" onclick="job2()">
+                            <h3><div id="job2"></div></h3>
+                        </button>
+                        <button class="card" onclick="job3()">
+                            <h4><div id="job3"></div></h4>
+                        </button>
+                    </div>
+                    <div class="containercard2">
+                        <button class="card" onclick="job4()">
+                            <h3><div id="job4"></div></h3>
+                        </button>
+                        <button class="card" onclick="job5()">
+                            <h3><div id="job5"></div></h3>
+                        </button>
+                        <button class="card" onclick="job6()">
+                            <h4><div id="job6"></div></h4>
+                        </button>
+                    </div>
+                    <div class="containercard3">
+                        <button class="card" onclick="job7()">
+                            <h3><div id="job7"></div></h3>
+                        </button>
+                        <button class="card" onclick="job8()">
+                            <h3><div id="job8"></div></h3>
+                        </button>
+                        <button class="card" onclick="job9()">
+                            <h4><div id="job9"></div></h4>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
