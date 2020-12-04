@@ -9,3 +9,6 @@ https://media.discordapp.net/attachments/714491489169834124/714491775288475728/u
 https://media.discordapp.net/attachments/714491489169834124/714491852874580028/unknown.png
 
 ## Credits til Pilely#8888
+
+## Min discord
+link: https://discord.gg/txsA97C
